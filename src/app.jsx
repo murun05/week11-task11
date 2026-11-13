@@ -1,7 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
 import StudentProfileCard from './StudentProfileCard';
-import './index.css';
 
 function App() {
   return (
@@ -33,11 +30,5 @@ function App() {
     </div>
   );
 }
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
 export default App;
